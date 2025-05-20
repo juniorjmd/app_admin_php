@@ -1,0 +1,42 @@
+body {
+    font-family: arial;
+    color: #0C82C5
+}
+
+.btn-institucional{
+    background-color: #0C82C5
+}
+
+
+#container_edit_user{ 
+    background-color: #e5e3e373;
+    padding: 1rem 3rem 1rem 3rem;
+ }
+ 
+ #sub_container_edit_user{ 
+    background: #ffffff;
+    padding: 2rem;  
+    border-radius: 15px;
+ }
+ .upload_file , .delete_file , .create_folder , .rename_file,
+ .rename_dir, .delete_dir{
+    cursor: pointer;
+}
+
+.upload_file{
+    color: blue;
+}
+ .delete_file  , .delete_dir{
+      color: red;
+} 
+.create_folder {
+    color:#ffc107;
+}
+ .rename_file,
+ .rename_dir {
+     color:green;
+ }
+ 
+ .gota{
+     color:#0d6efd4d;
+ }
